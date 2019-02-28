@@ -13,7 +13,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `MUDA`
 --
-
+--
+CREATE DATABASE IF NOT EXISTS `MUDA` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `MUDA`;
 -- --------------------------------------------------------
 
 --
